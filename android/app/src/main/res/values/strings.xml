@@ -1,0 +1,8 @@
+<!-- res/values/notification_channels.xml -->
+
+<resources>
+
+    <string name="default_notification_channel_id">my_channel_id</string>
+    <string name="default_notification_channel_name">My Channel</string>
+
+</resources>

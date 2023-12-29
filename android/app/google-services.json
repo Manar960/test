@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "457444640492",
+    "project_id": "cars-4f2e3",
+    "storage_bucket": "cars-4f2e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457444640492:android:6179c798723ab2197fc7c9",
+        "android_client_info": {
+          "package_name": "com.example.gp_fe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqJpFQDdT7k7n1UKCc6tTeDEBFkeZRtYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
