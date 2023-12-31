@@ -38,7 +38,7 @@ class _store2State extends State<store2> {
   void initState() {
     super.initState();
   }
-  @override
+  @override 
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
@@ -114,7 +114,7 @@ class _store2State extends State<store2> {
                          Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) {
-                            return  date(Name:widget.item['Name'] ,image: widget.item['comimag'],user: "sfd",);
+                            return  DatePage(name:widget.item['Name'],image: widget.item['comimag'],user: username!,);
                           }),
                         );
                         },

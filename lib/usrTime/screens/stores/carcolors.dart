@@ -28,7 +28,7 @@ class _carcolorsState extends State<carcolors> {
   Future<void> getstore() async {
     try {
       var response = await http.get(
-        Uri.parse('https://gp-back-gp.onrender.com/getsametypecompany/Car%20color'),
+        Uri.parse('http://localhost:4000/getsametypecompany/Car%20color'),
         headers: {"Content-Type": "application/json"},
       );
 

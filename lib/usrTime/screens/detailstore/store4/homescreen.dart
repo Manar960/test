@@ -110,12 +110,12 @@ class _store4State extends State<store4> {
                         color: Color.fromARGB(255, 246, 223, 121),
                         shape: StadiumBorder(), 
                         onPressed: () {
-                         Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) {
-                            return  date(Name:widget.item['Name'] ,image: widget.item['comimag'],user: "sfd",);
-                          }),
-                        );
+                        //  Navigator.push(
+                        //   context,
+                        //   MaterialPageRoute(builder: (context) {
+                        //     return  date(Name:widget.item['Name'] ,image: widget.item['comimag'],user: "sfd",);
+                        //   }),
+                        // );
                         },
                         child: const Text(
                           "احجز موعدك",

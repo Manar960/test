@@ -24,7 +24,7 @@ class _ServiceSectionState extends State<ServiceSection> {
   List? services;
 
   Future<void> getserv(String storeName) async {
-    final url = 'https://gp-back-gp.onrender.com/getservices';
+    final url = 'http://localhost:4000/getservices';
 
     final response = await http.post(
       Uri.parse(url),

@@ -31,7 +31,7 @@ class _SeeAllState extends State<SeeAll> {
   }
    Future<void> getProducts(String storeId) async {
     var response = await http.get(
-      Uri.parse('https://gp-back-gp.onrender.com/getpro/$storeId/Car'),
+      Uri.parse('http://localhost:4000/getpro/$storeId/Car'),
       headers: {"Content-Type": "application/json"},
     );
 
