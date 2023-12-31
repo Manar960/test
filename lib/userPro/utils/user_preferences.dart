@@ -2,7 +2,7 @@ import 'dart:typed_data';
 
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:image_picker/image_picker.dart';
-import '../../admin/profile/    model/user.dart';
+import '../../admin/profile/model/user.dart';
 
 class UserPreferences {
   static const _keyImagePath = 'user_image_path';

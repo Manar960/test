@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../    model/user.dart';
+import '../model/user.dart';
 import '../../../userPro/utils/user_preferences.dart';
 import '../../pages/dashboard/widget/header_widget.dart';
 import '../widget/addminButoon.dart';

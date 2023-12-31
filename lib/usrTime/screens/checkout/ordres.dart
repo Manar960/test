@@ -28,7 +28,7 @@ class _ordersState extends State<orders> {
   Future<void> getOrdar() async {
     try {
       var response = await http.get(
-        Uri.parse('https://gp-back-gp.onrender.com/getOrdar'),
+        Uri.parse('http://localhost:4000/getOrdar'),
         headers: {"Content-Type": "application/json"},
       );
 
@@ -46,7 +46,7 @@ class _ordersState extends State<orders> {
   }
  
   Future<void> deleteOrdar(String OrderCode,String companyName) async {
-    final url = 'https://gp-back-gp.onrender.com/order/delete-ordar';
+    final url = 'http://localhost:4000/order/delete-ordar';
 
     final response = await http.delete(
       Uri.parse(url),
@@ -58,7 +58,7 @@ class _ordersState extends State<orders> {
     );
   }
   Future<void> removeFromCart(String CartCode) async {
-    final url = 'https://gp-back-gp.onrender.com/cart/order-remove';
+    final url = 'http://localhost:4000/cart/order-remove';
 
     final response = await http.delete(
       Uri.parse(url),

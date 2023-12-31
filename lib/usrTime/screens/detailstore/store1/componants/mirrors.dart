@@ -27,7 +27,7 @@ class _mirrorsState extends State<mirrors> {
   Future<void> getNewArrivalProducts() async {
   try {
     var response = await http.get(
-      Uri.parse('https://gp-back-gp.onrender.com/products/getpro/halacar/mirror'),
+      Uri.parse('http://localhost:4000/products/getpro/halacar/mirror'),
       headers: {"Content-Type": "application/json"},
     );
   

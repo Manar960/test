@@ -1,4 +1,4 @@
-const url = 'https://gp-back-gp.onrender.com/';
+const url = 'http://localhost:4000/';
 
 const registration = "${url}registration";
 

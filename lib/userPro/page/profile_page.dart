@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:gp_fe/firebase_options.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:jwt_decoder/jwt_decoder.dart';
-import '../../admin/profile/    model/user.dart';
+import '../../admin/profile/model/user.dart';
 import '../../admin/profile/widget/button_widget.dart';
 import '../../admin/profile/widget/numbers_widget.dart';
 import '../../admin/profile/widget/profile_widget.dart';

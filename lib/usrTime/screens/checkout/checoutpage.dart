@@ -21,7 +21,7 @@ class checkout extends StatefulWidget {
   String? username = AuthProvider.userData?.userName;
 
  Future<void> addOrder( String userName,String location,String payminttype,String waydelivary) async {
-    final url = 'https://gp-back-gp.onrender.com/Ordar';
+    final url = 'http://localhost:4000/Ordar';
 
     final response = await http.post(
       Uri.parse(url),

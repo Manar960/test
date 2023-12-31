@@ -23,7 +23,7 @@ class _bookScreenState extends State<bookScreen> {
   Future<void> getBookingsForUser(String userName) async {
   try {
     var response = await http.get(
-      Uri.parse('https://gp-back-gp.onrender.com/$userName'),
+      Uri.parse('http://localhost:4000/$userName'),
       headers: {"Content-Type": "application/json"},
     );
     if (response.statusCode == 200) {

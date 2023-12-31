@@ -22,7 +22,7 @@ bool isBookingRemoved = false;
     super.initState();
   }
 Future<void> removebookng(String BookingCode) async {
-    final url = 'https://gp-back-gp.onrender.com/$BookingCode';
+    final url = 'http://localhost:4000/$BookingCode';
 
     final response = await http.delete(
       Uri.parse(url),

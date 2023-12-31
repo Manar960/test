@@ -41,7 +41,7 @@ class _CartCardState extends State<CartCard> {
     }
   }
 Future<int> getCartItemCount(String proBarCode, String userName) async {
-  const String apiUrl = 'https://gp-back-gp.onrender.com/getcount'; 
+  const String apiUrl = 'http://localhost:4000/getcount'; 
 
   try {
     final response = await http.post(
@@ -63,7 +63,7 @@ Future<int> getCartItemCount(String proBarCode, String userName) async {
 }
   
 Future<void> removeFromCart(String proBarCode, String userName) async {
-    final url = 'https://gp-back-gp.onrender.com/removeFromCart/oneitem';
+    final url = 'http://localhost:4000/removeFromCart/oneitem';
 
     final response = await http.delete(
       Uri.parse(url),
@@ -82,7 +82,7 @@ Future<void> removeFromCart(String proBarCode, String userName) async {
     }
   }
   Future<void> addToCart(String proBarCode, String userName) async {
-    final url = 'https://gp-back-gp.onrender.com/addToCart';
+    final url = 'http://localhost:4000/addToCart';
 
     final response = await http.post(
       Uri.parse(url),
